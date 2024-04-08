@@ -82,7 +82,7 @@ function Home ()
                                             return (
                                                 <div key={ filterItems.id } className='col-12 col-md-6 col-lg-3'>
                                                     { console.log( filterItems.url ) }
-                                                <Card foodItem={ filterItems }
+                                                <Card foodName={ filterItems.name } foodItem={ filterItems }
                                                   options={ filterItems.options[ 0 ] } ></Card>
                                                 </div>
                                             )
